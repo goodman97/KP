@@ -8,3 +8,4 @@ geopandas
 shapely
 pyproj
 fiona
+openpyxl
