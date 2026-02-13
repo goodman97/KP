@@ -81,7 +81,7 @@ kasus_kecamatan = df.groupby('Kecamatan').size().sort_values(ascending=False)
 
 st.bar_chart(kasus_kecamatan)
 
-# =============================
+# ============================0
 # 2. JUMLAH KASUS PER TAHUN
 # =============================
 st.subheader("📆 Jumlah Kasus per Tahun")
@@ -101,7 +101,9 @@ kasus_per_tahun = (
 
 kasus_per_tahun.index = kasus_per_tahun.index.astype(str)
 
-st.bar_chart(kasus_per_tahun)
+st.bar_chart(
+    kasus_per_tahun,
+    height= 700)
 
 # =============================
 # 3. JUMLAH KASUS PER TAHUN DI TIAP KECAMATAN
@@ -118,6 +120,11 @@ kasus_tahun_kecamatan.index = kasus_tahun_kecamatan.index.astype(str)
 
 st.dataframe(kasus_tahun_kecamatan)
 
+st.bar_chart(
+    kasus_tahun_kecamatan,
+    height=1200  # default biasanya sekitar 400
+)
+
 # =============================
 # 4. JUMLAH KASUS PER PEKERJAAN
 # =============================
@@ -130,8 +137,20 @@ kasus_pekerjaan = (
        .size()
        .sort_values(ascending=False)
 )
-
 st.bar_chart(kasus_pekerjaan)
+
+kasus_tahun_pekerjaan = (
+    df.groupby(['Tahun', 'Pekerjaan'])
+      .size()
+      .unstack(fill_value=0)
+)
+
+st.bar_chart(
+    kasus_tahun_pekerjaan,
+    height=1200)
+
+
+
 
 # =============================
 # PARSING BB (VERSI VALID COLAB)
