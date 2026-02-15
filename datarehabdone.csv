@@ -1,0 +1,172 @@
+NO,KONSELOR,USIA,JENIS KELAMIN,ALAMAT DOMISILI,DIAGNOSA UTAMA,LAMA MENGGUNAKAN ZAT,TIPE PENGGUNAAN NARKOBA,LAMA MENGIKUTI PROGRAM,JUMLAH KEDATANGAN KLIEN,TANGGAL MASUK,TANGGAL SELESAI REHABILITASI,STATUS (DO/ SELESAI),PENDIDIKAN,STATUS REHABILITASI,AGAMA,GOL. DARAH,STATUS PERNIKAHAN,PEKERJAAN,SUKU
+1,dr. Anandyo,34,LAKI - LAKI,PATEHAN KRATON YOGYAKARTA,F.13 (BENZODIASEPINE),2 bulan,COBA-COBA,1 BULAN,6 KALI,02 JANUARI 2023,10 FEBRUARU 2023,SELESAI,S1,SUKARELA,KATHOLIK,O,BELUM MENIKAH,WIRASWASTA,JAWA
+2,Nurhayati,21,LAKI - LAKI,PURWOKINANTI PAKUALAMAN YOGYAKARTA,F.16 (TEMBAKAU GORILA),1 TAHUN,TERATUR PAKAI,2 BULAN,9 KALI,09 JANUARI 2023,22 FEBRUAR1 2023,SELESAI,SMA,LIMPAHAN POLRESTA,KHATOLIK,A,BELUM MENIKAH,MAHASISWA,JAWA
+3,Dyah Aridha,19,LAKI - LAKI,KADIPATEN KRATON YOGYAKARTA,F.16 (TEMBAKAU GORILA),,,,,09 JANUARI 2023,,SELESAI,SMA,LIMPAHAN POLRESTA,ISLAM,A,BELUM MENIKAH,BELUM BEKERJA,JAWA
+4,Nurhayati,20,LAKI - LAKI,"NGESTIHARJO, KASIHAN, BANTUL",F.16 (TEMBAKAU GORILA),1 TAHUN,TERATUR PAKAI,2 BULAN,6 KALI,10 JANUARI 2023,17-Feb-23,SELESAI,SMA,LIMPAHAN POLRESTA,ISLAM,-,BELUM MENIKAH,BELUM BEKERJA,JAWA
+5,dr. Anandyo,22,LAKI - LAKI,SANGGRAHAN WEDOMARTANI NGEMPLAK SLEMAN,F.16 (TEMBAKAU GORILA),5 TAHUN,TERATUR PAKAI,2 BULAN,2 KALI,24 JANUARI 2023,-,DO,S1,LIMPAHAN POLRESTA,ISLAM,O,BELUM MENIKAH,MAHASISWA,MELANESIA
+6,Dyah Aridha,21,LAKI - LAKI,MADUREJO PRAMBANAN SLEMAN,F.16 (TEMBAKAU GORILA),,,,,30 JANUARI 2023,,SELESAI,SMA,LIMPAHAN POLRESTA,ISLAM,-,MENIKAH,BURUH,JAWA
+7,Menik Fardintika,21,LAKI - LAKI,MADUREJO PRAMBANAN SLEMAN,F.16 (TEMBAKAU GORILA),5 TAHUN,TERATUR PAKAI,2 BULAN,3 KALI,30 JANUARI 2023,8-Feb-23,DO,SMA,LIMPAHAN POLRESTA,ISLAM,O,BELUM MENIKAH,BURUH,JAWA
+8,Menik Fardintika,24,LAKI - LAKI,TIRTONIRMOLO KASIHAN BANTUL,F.16 (TEMBAKAU GORILA),9 TAHUN,TERATUR PAKAI,2 BULAN,7 KALI,06 FEBRUARI 2023,10-Mar-23,selesai,SMA,LIMPAHAN POLRESTA,ISLAM,A,BELUM MENIKAH,MAHASISWA,LAMPUNG
+9,Dyah Aridha,22,LAKI - LAKI,TIRTONIRMOLO KASIHAN BANTUL,F.16 (TEMBAKAU GORILA),,,,,06 FEBRUARI 2023,,SELESAI 17 maret 2023,SMA,LIMPAHAN POLRESTA,ISLAM,B,BELUM MENIKAH,MAHASISWA,MINANG
+10,Nurhayati,22,LAKI - LAKI,TIRTONIRMOLO KASIHAN BANTUL,F.16 (TEMBAKAU GORILA),1 TAHUN,TERATUR PAKAI,2 BULAN,7 KALI,06 FEBRUARI 2023,17-Mar-23,selesai,SMA,LIMPAHAN POLRESTA,ISLAM,O,BELUM MENIKAH,MAHASISWA,MINANG MELAYU
+11,dr. Anandyo,44,LAKI - LAKI,NOGOTIRTO GAMPING SLEMAN,F.13 (BENZODIASEPINE),4 TAHUN,TERATUR PAKAI,2 BULAN,7 KALI,06 FEBRUARI 2023,28-Mar-23,selesai 28 maret 2023,SLTA,LIMPAHAN POLRESTA,ISLAM,,MENIKAH,WIRASWASTA,JAWA
+12,Renantapria,34,LAKI - LAKI,NOGOTIRTO GAMPING SLEMAN,F.13 (BENZODIASEPINE),3 TAHUN,TERATUR PAKAI,4 BULAN,7 KALI,16-Feb-23,25-May-23,selesai 30 maret 2023,SD,LIMPAHAN POLRESTA,ISLAM,,MENIKAH,SWASTA,JAWA
+13,Dyah Aridha,21,LAKI - LAKI,REJOWINANGUN KOTAGEDE D.I.YOGYAKARTA,F.16 (TEMBAKAU GORILA),,,,,23 FEBRUARI 2023,,selesai 28 maret 2023,DIII,LIMPAHAN POLRESTA,ISLAM,B,MENIKAH,SWASTA,JAWA
+14,Menik Fardintika,34,LAKI - LAKI,TIRTOMARTANI KALASAN SLEMAN,F.15 (SHABU),10 TAHUN,TERATUR PAKAI,3 BULAN,5 KALI,24 FEBRUARI 2023,11-Apr-23,DO,S1,LIMPAHAN POLDA DIY,ISLAM,O,MENIKAH,WIRASWASTA,JAWA
+15,dr. Anandyo,50,LAKI - LAKI,LUMBUNGREJO TEMPEL SLEMAN,F.13 (BENZODIASEPINE),29 TAHUN,TERATUR PAKAI,-,-,22-Feb-23,-,DO,SMA,RUJUK RSUD SLEMAN,,,,,
+16,dr. Anandyo,20,LAKI - LAKI,"NGLAMPAR, CATURHARJO SLEMAN",F.13 (BENZODIASEPINE),9 TAHUN,TERATUR PAKAI,-,-,24-Feb-23,-,DO,,RUJUK RSUD SLEMAN,,,,,
+17,Nurhayati,26,LAKI - LAKI,PUGERAN MAGUWOHARJO DEPOK SLEMAN,F.12 (GANJA),2 TAHUN,TERATUR PAKAI,1 BULAN,2 KALI,10 MARET 2023,17-Mar-23,DO,S1,LIMPAHAN POLDA DIY,ISLAM,A,BELUM MENIKAH,WIRASWASTA,MALUKU
+18,Dyah Aridha,23,LAKI - LAKI,KOST EXKLUSIVE GRIYA FAZZATHANI PUGERAN MAGUWOHARJO DEPOK SLEMAN,F.12 (KANABIS),4 TAHUN,TERATUR PAKAI,1 BULAN,2 KALI,13-Mar-23,17-Mar-23,DO,SMA,ASESMMEN SAJA,,,,,
+19,dr. Anandyo,26,LAKI - LAKI,BANYUREJO TEMPEL SLEMAN,F. 16 (TEMBAKAU GORILA),5 TAHUN,TERATUR PAKAI,0 BULAN,2 KALI,29-Mar-23,,DO,SMA,LIMPAHAN POLRESTA,ISLAM,-,BELUM MENIKAH,SWASTA,
+20,Renantapria,24,LAKI - LAKI,BANYUREJO TEMPEL SLEMAN,F. 16 (TEMBAKAU GORILA),13 TAHUN,TERATUR PAKAI,2 BULAN,6 KALI,14-Mar-23,11-Apr-23,DO,SMA,LIMPAHAN POLRESTA,ISLAM,O,BELUM MENIKAH,SWASTA,
+21,dr. Anandyo,37,LAKI - LAKI,"PURWOMARTANI,KALASAN,SLEMAN,YOGYAKARTA",F.15 (SHABU),7 TAHUN,TERATUR PAKAI,1 BULAN,2 KALI,3-May-23,15-May-23,DO,,DATANG SEKALI,,,,,
+22,Nurhayati,36,LAKI - LAKI,"KALIBENING, TIRTOMARTANI,KALASAN",F.15 (SHABU),2 TAHUN,TERATUR PAKAI,0 BULAN,1 KALI,3 MEI 2023,8-May-23,DO,SMP,LIMPAHAN POLDA DIY,ISLAM,O,MENIKAH,BURUH,JAWA
+23,Dyah Aridha,28,LAKI - LAKI,BOLON COLOMADU KARANGANYAR JAWA TENGAH,F.15 (SHABU),,TERATUR PAKAI,0 BULAN,1 KALI,4-May-23,-,DO,,BELUM ASSESMEN,,,,,
+24,Sumasdita,23,LAKI - LAKI,CARIKAN KADILUWIH SALAM MAGELANG JAWA TENGAH,F. 16 (TEMBAKAU GORILA),1 TAHUN,TERATUR PAKAI,0 BULAN,2 KALI,23-May-23,30-May-23,DO,SMA,LIMPAHAN POLRESTA SLEMAN,ISLAM,O,BELUM MENIKAH,SWASTA,JAWA
+25,Nurhayati,24,LAKI - LAKI,KOCORAN CATURTUNGGAL DEPOK SLEMAN,F. 16 (TEMBAKAU GORILA),7 TAHUN,TERATUR PAKAI,3 BULAN,8 KALI,15-May-23,4-Jul-23,SELESAI,SMP,LIMPAHAN POLRESTA SLEMAN,ISLAM,-,MENIKAH,SWASTA,JAWA
+26,Dyah Aridha,22,LAKI - LAKI,TEGALREJO BANYUURIP MAGELANG JAWA TENGAH,F.15 (SHABU),,,,,08 MEI 2023,,SELESAI,S1,LIMPAHAN POLRESTA SLEMAN,ISLAM,-,BELUM MENIKAH,MAHASISWA,JAWA
+27,dr. Anandyo,18,LAKI - LAKI,"BANYUURIP, TEGALREJO, MAGELANG",F.15 (SHABU),5 TAHUN,TERATUR PAKAI,2 BULAN,3 KALI,08 MEI 2023,-,DO,SMA,LIMPAHAN POLRESTA SLEMAN,ISLAM,-,BELUM MENIKAH,PELAJAR,JAWA
+28,Menik Fardintika,25,LAKI - LAKI,", BOROBUDUR, BOROBUDUR, MAGELANG, JAWA TENGAH",F.15 (SHABU),8 TAHUN,TERATUR PAKAI,2 BULAN,6 KALI,08 MEI 2023,15-Jun-23,SELESAI,SMA,LIMPAHAN POLRESTA SLEMAN,ISLAM,-,DUDA,SWASTA,JAWA
+29,Nurhayati,29,LAKI - LAKI,AMBARKETAWANG GAMPING SLEMAN YOGYAKARTA,F.15 (SHABU),7 TAHUN,TERATUR PAKAI,2 BULAN,7 KALI,08 MEI 2023,23-Jun-23,SELESAI,SMA,LIMPAHAN POLRESTA SLEMAN,ISLAM,O,MENIKAH,SWASTA,JAWA
+30,Menik Fardintika,22,LAKI - LAKI,KEMBARAN TAMANTORTO KASIHAN BANTUL YOGYAKARTA,F.15 (SHABU),5 TAHUN,TERATUR PAKAI,2 BULAN,7 KALI,08 MEI 2023,27-Jun-23,SELESAI,SMA,LIMPAHAN POLRESTA SLEMAN,ISLAM,-,BELUM MENIKAH,SWASTA,JAWA
+31,Menik Fardintika,35,LAKI - LAKI,AMBARKETAWANG GAMPING SLEMAN,F.15 (SHABU),13 TAHUN,TERATUR PAKAI,2 BULAN,6 KALI,08 MEI 2023,16/06/2023 CBT,SELESAI,SMA,LIMPAHAN POLRESTA SLEMAN,ISLAM,A,DUDA,SWASTA,JAWA
+32,dr. Anandyo,26,LAKI - LAKI,AMBARKETAWANG GAMPING SLEMAN,F.15 (SHABU),12 TAHUN,TERATUR PAKAI,2 BULAN,6 KALI,09 MEI 2023,23-Jun-23,SELESAI,SMA,LIMPAHAN POLRESTA SLEMAN,ISLAM,-,BELUM MENIKAH,SWASTA,JAWA
+33,Menik Fardintika,29,LAKI - LAKI,CUCUKAN PRAMBANAN KLATEN JAWA TENGAH,F.15 (SHABU),5 TAHUN,TERATUR PAKAI,3 BULAN,8 KALI,12 MEI 2023,25-Jul-23,SELESAI,SMA,LIMPAHAN POLRESTA SLEMAN,ISLAM,B,MENIKAH,SWASTA,JAWA
+34,dr. Anandyo,25,laKI - LAKI,"CANDIREJO, KAPANEWON SEMANU, GUNUNGKIDUL, YOGYAKARTA",F.13 (BENZODIASEPINE),13 TAHUN,TERATUR PAKAI,3 BULAN,6 KALI,16 MEI 2023,6-Jul-23,SELESAI,SMA,TAT,KRISTEN,O,MENIKAH,SWASTA,JAWA
+35,Sumasdita,21,laKI - LAKI,AMBARKETAWANG GAMPING SLEMAN,F.16 (TEMBAKAU GORILA),1 TAHUN,COBA-COBA,2 BULAN,5 KALI,22 MEI 2023,23-Jun-23,SELESAI,SMA,LIMPAHAN POLDA DIY,ISLAM,-,BELUM MENIKAH,MAHASISWA,SUNDA
+36,Menik Fardintika,26,laKI - LAKI,SUMBERAGUNG MOYUDAN SLEMAN,F.13 (BENZODIASEPINE),4 TAHUN,TERATUR PAKAI,4 BULAN,6 KALI,29 MEI 2023,7-Aug-23,SELESAI 11 SEPTEMBER 2023,SMA,LIMPAHAN POLRESTA SLEMAN,KHATOLIK,O,BELUM MENIKAH,SWASTA,JAWA
+37,dr. Anandyo,30,LAKI - LAKI,SUMBERSARI MOYUDAN SLEMAN,F.13 (BENZODIASEPINE),,,,,23-May-23,,RUJUK RS GHRASIA,,,,,,,
+38,Renantapria,27,laKI - LAKI,SENDANGREJO MINGGIR SLEMAN,F.13 (BENZODIASEPINE),10 TAHUN,TERATUR PAKAI,4 BULAN,6 KALI,29 MEI 2023,18-Aug-23,SELESAI,SMA,POLRESTA SLEMAN,ISLAM,A,BELUM MENIKAH,SWASTA,JAWA
+39,Dyah Aridha,26,LAKI - LAKI,TLOGOADI MLATI SLEMAN,F.13 (BENZODIASEPINE),,,,,29 MEI 2023,,SELESAI,SMA,POLRESTA SLEMAN,ISLAM,A+,BELUM MENIKAH,BURUH,JAWA
+40,Nurhayati,26,LAKI - LAKI,MARGOAGUNG SEYEGAN SLEMAN,F.13 (BENZODIASEPINE),10 TAHUN,TERATUR PAKAI,3 BULAN,7 KALI,29 MEI 2023,10-Jul-23,SELESAI,SMA,POLRESTA SLEMAN,ISLAM,O,BELUM MENIKAH,WIRASWASTA,JAWA
+41,Nurhayati,26,PEREMPUAN,PAKAHAN JOGONALAN KLATEN JAWA TENGAH,F.15 (SHABU),5 TAHUN,TERATUR PAKAI,2 BULAN,6 KALI,12 JUNI 2023,10-Jul-23,SELESAI,SMA,BERANTAS BNNK SLEMAN,ISLAM,-,CERAI HIDUP,IBU RUMAH TANGGA,JAWA
+42,dr. Anandyo,19,PEREMPUAN,BANYUREJO TEMPEL SLEMAN,F.13 (THP),4 TAHUN,TERATUR PAKAI,2 BULAN,5 KALI,16 JUNI 2023,14-Jul-23,DO,SMA,PUSKESMAS TEMPEL II,ISLAM,O,BELUM MENIKAH,SWASTA,JAWA
+43,Dyah Aridha,20,LAKI - LAKI,PRENGGAN KOTAGEDE YOGYAKARTA,F.16 (TEMBAKAU GORILA),,,,,19 JUNI 2023,,DO,SMA,POLRESTA SLEMAN,ISLAM,B,BELUM KAWIN,SWASTA,JAWA
+44,Sumasdita,25,LAKI - LAKI,MURUH GANTIWARNO KLATEN JAWA TENGAH,F.16 (TEMBAKAU GORILA),0 TAHUN,COBA-COBA,2 BULAN,6 KALI,22 JUNI 2023,27-Jul-23,SELESAI,SMA,POLRESTA SLEMAN,ISLAM,B,BELUM MENIKAH,BURUH,JAWA
+45,Menik Fardintika,21,LAKI - LAKI,COKROGATEN BIMOMARTANI NGEMPLAK SLEMAN YOGYAKARTA,F.16 (TEMBAKAU GORILA),7 TAHUN,TERATUR PAKAI,3 BULAN,8 KALI,22 JUNI 2023,25-Aug-25,SELESAI,SMA,POLRESTA SLEMAN,ISLAM,,BELUM MENIKAH,PELAJAR,JAWA
+46,,26,LAKI - LAKI,"SRAGEN WETAN, SRAGEN, JAWA TENGAH",F.16 (TEMBAKAU GORILA),5 TAHUN,COBA-COBA,,,27-Jun-23,,RUJUK BNNK SURAKARTA,,HANYA ASESMEN,,,,,
+47,Sumasdita,23,PEREMPUAN,TAMBAKREJO TEMPEL SLEMAN YOGYAKARTA,F.10 (ALKOHOL),5 TAHUN,KETERGANTUNGAN ALKHOHOL,3 BULAN,3 KALI,28 JUNI 2023,2-Aug-23,DO,SMA,PUSKESMAS TEMPEL II,ISLAM,B,BELUM MENIKAH,KARYAWAN SWASTA,JAWA
+48,dr. Anandyo,24,LAKI - LAKI,KEMALARAJA BATURAJA TIMUR OGANKOMERING ULU SUMATERA SELATAN,F.16 (TEMBAKAU GORILA),11 TAHUN,TERATUR PAKAI,2 BULAN,5 KALI,11-Jul-23,8-Aug-23,Rujuk Sumsel,SMA,POLRESTA SLEMAN,ISLAM,O,BELUM MENIKAH,KARYAWAN SWASTA,OGAN
+49,Menik Fardintika,17,LAKI - LAKI,MAGUWOHARJO DEPOK SLEMAN YOGYAKARTA,F.13 (BENZODIAZEPIN),3 TAHUN,TERATUR PAKAI,0 BULAN,,20-Jul-23,,ASESMEN SAJA,,ASESMEN SAJA,,,,,
+50,Nurhayati,20,LAKI - LAKI,"KOS PAK SABAR MAREDAN, BERBAH, SLEMAN",F.16 (TEMBAKAU GORILA),6 TAHUN,TERATUR PAKAI,2 BULAN,3 KALI,26-Jul-23,8-Aug-23,DO,SMA,POLRESTA SLEMAN,ISLAM,O,BELUM MENIKAH,PELAJAR,PAPUA
+51,dr. Anandyo,49,PEREMPUAN,"BUMIJO, JETIS, DIY",F.13 (BENZODIASEPINE),,,,,3-Aug-23,,ASESMEN SAJA,,,,,,,
+52,Nurhayati,27,LAKI - LAKI,CONDONGCATUR DEPOK SLEMAN,F.12 (GANJA),,,,,04 AGUSTUS 2023,,SELESAI,S1,POLRESTA SLEMAN,KRISTEN,B,BELUM MENIKAH,SWASTA,JAWA
+53,Renantapria,25,LAKI - LAKI,JL. BABARSARI NO 106,F.12 (GANJA),,,,,04 AGUSTUS 2023,,SELESAI,SMA,POLRESTA SLEMAN,KRISTEN,AB,BELUM MENIKAH,WIRASWASTA,JAWA
+54,Nurhayati,30,LAKI - LAKI,"DENDAN, TASKOMBAN MANISRENGGO, KLATEN",F.12 (GANJA),,,,,04 AGUSTUS 2023,,SELESAI,SMA,POLRESTA SLEMAN,ISLAM,B,MENIKAH,BURUH HARIAN LEPAS,JAWA
+55,Sumasdita,34,LAKI - LAKI,GELANGAN MAGELANG TENGAH MAGELANG JAWA TENGAH,F.15 (SHABU),,,,,18 AGUSTUS 2023,,DO,SMA,POLRESTA SLEMAN,ISLAM,O,MENIKAH,BURUH HARIAN LEPAS,JAWA
+56,dr. Anandyo,35,LAKI - LAKI,RINGINANOM TEMPURAN MAGELANG,F.15 (SHABU),6 TAHUN,TERATUR PAKAI,2 BULAN,3 KALI,18 AGUSTUS 2023,18-Sep-23,DO,SMA,POLRESTA SLEMAN,ISLAM,O,MENIKAH,BURUH HARIAN LEPAS,JAWA
+57,dr. Anandyo,20,LAKI - LAKI,METRO METRO PUSAT KOTA METRO LAMPUNG,F.16 (TEMBAKAU GORILA),,,,,20 AGUSTUS 2023,,SELESAI 10 /9/2023,SMA,POLRESTA SLEMAN,ISLAM,-,BELUM MENIKAH,MAHASISWA,LAMPUNG
+58,Nurhayati,20,LAKI - LAKI,DELINGSARI GAMPING SLEMAN D.I. YOGYAKARTA,F.16 (TEMBAKAU GORILA),6 TAHUN,TERATUR PAKAI,2 BULAN,4 KALI,20 AGUSTUS 2023,16-Sep-23,TERAKHIR EDUKASI ADIKSI,SMA,POLRESTA SLEMAN,ISLAM,-,BELUM MENIKAH,MAHASISWA,LAMPUNG
+59,dr. Anandyo,30,LAKI - LAKI,SUMBERHARJO PRAMBANAN SLEMAN YOGYAKARTA,F.13 (BENZODIASEPINE),,,,,9/21/2023,,SELESAI,SMA,BERANTAS BNN SLEMAN,ISLAM,AB,CERAI HIDUP,BURUH HARIAN LEPAS,JAWA
+60,Muh. Ihsan,21,LAKI - LAKI,TRIDADI SLEMAN SLEMAN DI. YOGYAKARTA,F.13 (BENZODIASEPINE),,,,,30 OKTOBER 2023,,,SMA,POLRESTA SLEMAN,ISLAM,-,MENIKAH,BURUH HARIAN LEPAS,JAWA
+61,Nurhayati,20,LAKI - LAKI,TLOGOADI MLATI SLEMAN,F.13 (BENZODIASEPINE),4 TAHUN,TERATUR PAKAI,2 BULAN,6 KALI,30 OKTOBER 2023,29-Nov-23,,SMA,POLRESTA SLEMAN,ISLAM,-,BELUM MENIKAH,MAHASISWA,JAWA
+62,Dyah Aridha,20,LAKI - LAKI,SOSROMENDURAN GEDONGTENGEN YOGYAKARTA,F.15 (SHABU),,,,,10-Nov-23,,,SMA,POLDA DIY,ISLAM,-,BELUM MENIKAH,SWASTA,JAWA
+63,Muh. Ihsan,19,LAKI - LAKI,SOSROMENDURAN GEDONGTENGEN YOGYAKARTA,F.15 (SHABU),1 TAHUN,TERATUR PAKAI,2 BULAN,7 KALI,10-Nov-23,21-Dec-23,PERSIAPAN PASCA REHAB,SMA,POLDA DIY,ISLAM,O,BELUM MENIKAH,SWASTA,JAWA
+64,Menik Fardintika,17,LAKI - LAKI,TEGALREJO YOGYAKARTA,F.15 (SHABU),7 TAHUN,TERATUR PAKAI,2 BULAN,6 KALI,10-Nov-23,13-Dec-23,DO,SMP,POLDA DIY,ISLAM,-,MELUM MENIKAH,TIDAK BEKERJA,-
+65,Nurhayati,42,LAKI - LAKI,SOSROMENDURAN GEDONGTENGEN YOGYAKARTA,F.15 (SHABU),16 TAHUN,TERATUR PAKAI,2 BULAN,7 KALI,10-Nov-23,21-Dec-23,TERAKHIR WHOQOL + URICA,SMA,POLDA DIY,ISLAM,O,MENIKAH,BURUH (PARKIR),JAWA
+66,Muh. Ihsan,29,LAKI - LAKI,GONDOKUSUMAN YOGYAKARTA,F.15 (SHABU),< 1 TAHUN,COBA PAKAI,2 BULAN,,10-Nov-23,,,SMA,POLDA DIY,KRISTEN,O,MENIKAH,SWASTA,JAWA
+67,Muh. Ihsan,26,LAKI - LAKI,LUMBUNGREJO TEMPEL SLEMAN,F.15 (SHABU),5 TAHUN,TERATUR PAKAI,2 BULAN,,10-Nov-23,,,SMK,POLDA DIY,ISLAM,B,BELUM MENIKAH,WIRASWASTA,JAWA
+68,Sumasdita,26,LAKI - LAKI,JARAKSARI WONOSOBO JAWA TENGAH,F.12 (GANJA),,,,,01 Desember 2023,,,SMA,POLDA DIY,ISLAM,O,BELUM MENIKAH,SWASTA,JAWA
+69,Nurhayati,20,LAKI - LAKI,TALESAN PURWANTORO WONOGIRI JAWA TENGAH,F10 ALKOHOL,,,,,11-Dec-23,,,SMK,VOLUNTARY,ISLAM,,BELUM MENIKAH,WIRASWASTA,JAWA
+70,Nurhayati,28,Laki - laki,Triharjo Sleman Sleman,F.13 (Benzodiasepin),< 6 bulan,Teratur Pakai,5 bulan,6 kali,4-Jan-24,11-Jun-24,PASCAREHAB,SMK,Voluntary,Islam,B,Belum menikah,Belum Bekerja,Jawa
+71,Nurhayati,15,Laki - laki,Temulawak Triharjo Sleman,F.19 (THP),< 6 bulan,Teratur Pakai,1 bulan,2 Kali,10-Jan-24,-,DO,SD,Voluntary,Islam,Tidak tahu,Belum menikah,Pelajar,Jawa
+72,Tri Sulistya HW,28,Laki - laki,Tempurejo Tempuran Mageang,F.13 (Benzodiasepin),2 tahun,,1 bulan,1 kali,15-Jan-24,-,Asesmen,SMK,Voluntary,Katolik,A+,Belum menikah,Sopir Bus Malam,Jawa
+73,Nurhayati,31,Perempuan,Condongcatur Depok Sleman,F.15 (Shabu),4 bulan,Teratur Pakai,1 bulan,5 Kali,18-Jan-24,Asemen 2 maret,PASCAREHAB,S1,Polda DIY,Islam,AB,Menikah,Ibu Rumah Tangga,Jawa
+74,Tri Sulistya HW,23,Laki - laki,"Banteng, Kel. Sinduharjo, Kec. Ngaglik, Kab. Sleman",F.12 (Ganja),1 Tahun,Teratur Pakai,2 bulan,5 Kali,26-Jan-24,12-Feb-24,PASCAREHAB,SMA,Polda DIY,Islam,Tidak tahu,Belum menikah,Karyawan Swasta,Sunda
+75,Nurhayati,25,Laki - laki,"Jl. Condongcatur, Kec. Depok, Kab. Sleman",F.12 (Ganja),2 bulan,Teratur Pakai,1 bulan,1 Kali,26-Jan-24,Rujuk 31 Januari 2024,Rujuk BNNK Cianjur,SMA,Polda DIY,Islam,Tidak tahu,Belum menikah,Karyawan Swasta,Sunda
+76,Anandyo,23,Laki - laki,"Jl. Condongcatur, Kec. Depok, Kab. Sleman",F.12 (Ganja),2 Tahun,Teratur Pakai,1 bulan,-,26-Jan-24,-,Rujuk BNNK Surabaya,SMA,Polda DIY,Islam,Tidak tahu,Belum menikah,Karyawan Swasta,Sunda
+77,Tri Sulistya HW,23,Laki - laki,"Jl. Condongcatur, Kec. Depok, Kab. Sleman",F.12 (Ganja),6 Tahun,Teratur Pakai,2 bulan,5 Kali,29-Jan-24,20-Feb-24,PASCAREHAB,SMA,Polda DIY,Islam,AB,Belum menikah,Karyawan Swasta,Sunda
+78,Muh. Ihsan Usman,24,Laki - laki,Panjalin kidul,F.12 (Ganja),2 tahun,Coba Pakai,< 1 bulan,2 Kali,26-Jan-24,1-Feb-24,DO,SMA,Polda DIY,Islam,_,Belum menikah,Karyawan Swasta,Sunda
+79,Dyah Aridha W.,46,Laki - laki,Margokaton Seyegan Sleman Sleman Yogyakarta,F.13 (Benzodiasepin),6 tahun,Teratur Pakai,1 bulan,8 kali,5-Feb-24,Asemen 2 maret 2024,PASCAREHAB,SMP,Voluntary,Islam,O,Menikah,Wiraswasta,Jawa
+80,Nurhayati,16,Perempuan,Gerjen Margomulya Seyegan Sleman,F.13 (Benzodiasepin),3 tahun,Ketergantungan,3 bulan,8 kali,5-Feb-24,13-May-24,SELESAI,SMA,Voluntary,Islam,Tidak tahu,Belum menikah,Pelajar,Jawa
+81,Dyah Aridha W.,16,Perempuan,Balecatur Gamping Sleman Yogyakarta,F.13 (Benzodiasepin),-,-,Hanya Asesmen,1 Kali,26-Feb-24,-,Hanya Asesmen,SMP,Voluntary,Islam,-,Belum Menikah,Tidak Bekerja,Jawa
+82,Anandyo,23,Laki - laki,Pedak Sinduharjo Ngaglik Sleman,F. 12 (Ganja),-,-,Hanya Asesmen,-,27-Feb-24,-,Hanya Asesmen,SMK,Bapas Yogyakart a,Islam,O,Belum menikah,Karyawan Swasta,Jawa
+83,Muh. Ihsan Usman,31,Laki - laki,"Canggal,Merdikorejo, Tempel, Sleman, DI Yogyakarta",F.15 (Shabu),1 Tahun,Teratur Pakai,2 bulan,6 Kali,7-Mar-24,18-Apr-24,PASCAREHAB,SMK,Polda DIY,Islam,O,Belum Menikah,Swasta,Jawa
+84,Nurhayati,25,Laki-laki,"Tlatar, Turi, Sleman, DI Yogyakarta",F.13 (Benzodiasepin),6 tahun,Ketergantungan,3 bulan,8 Kali,8-Mar-24,8-May-24,PASCAREHAB,SMP,Polda DIY,Islam,A+,Menikah,Karyawan Swasta,Jawa
+85,Anandyo,33,Laki-laki,"Sono Kulon, Merdikorejo, Tempel, Sleman, DI Yogyakarta",F.15 (Shabu),< 6 bulan,Coba Pakai,2 bulan,2 Kali,8-Mar-24,25-Apr-24,PASCAREHAB,SMK,Polda DIY,Islam,-,Menikah,Buruh Harian Lepas,Jawa
+86,Wihartanti,32,Laki - laki,Sono Kulon Merdikorejo Tempel Sleman,F.15 (Shabu),3 Tahun,Situasional,1 bulan,5 Kali,14-Mar-24,18-Apr-24,PASCAREHAB,SMK,Polda DIY,Islam,A,Menikan,Buruh,Jawa
+87,Dyah Aridha W.,24,Laki-laki,"Canggal, Merdikorejo, Tempel, Sleman, DI Yogyakarta",F.13 (Benzodiasepin),7 tahun,Ketergantungan,3 bulan,6 Kali,8-Mar-24,7-May-24,PASCAREHAB,SMK,Polda DIY,Islam,,Belum Menikah,Satpam,Jawa
+88,Dyah Aridha W.,40,Laki-laki,"Wirogunan, Mergangsan, DI Yogyakarta",F.15 (Shabu),1 tahun,Situasional,2 Bulan,6 Kali,8-Mar-24,24-Apr-24,PASCAREHAB,SMP,Polda DIY,Islam,,Menikah,Wiraswasta,Jawa
+89,Sumasdita,36,Perempuan,"Sokowaten, Banguntapan, Bantul, DI Yogyakarta",F.15 (Shabu),< 6 bulan,Coba Pakai,2 bulan,4 Kali,8-Mar-24,3-Apr-24,PASCAREHAB,SMK,Polda DIY,Islam,B,Menikah,Wiraswasta,Jawa
+90,Muh. Ihsan Usman,32,Laki-laki,"Jalan Gedong Kuning, Rejowinangun, Kotagede, DI Yogyakarta",F.13 (Benzodiasepin),3 Tahun,Teratur Pakai,2 Bulan,5 Kali,8-Mar-24,17-Apr-24,Selesai,SMA,Polda DIY,Islam,O,Menikah,Wiraswasta,Jawa
+91,Anandyo,23,Laki - laki,Griya Taman Asri,F.16 (Tembakau Sintetis),2 Tahun,Teratur Pakai,4 bulan,7 Kali,16-Apr-24,9-Jul-24,PASCAREHAB,SMA,Voluntary,Islam,,Belum Menikah,Mahasiswa,Jawa
+92,Sumasdita,22,Perempuan,Dukun Dukun Magelang Jawa Tengah,F.13 (Benzodiasepin),< 6 bulan,Ketergantungan,2 Bulan,5 kali,7-May-24,5-Jun-24,PASCAREHAB,SMA,Voluntary,Islam,B,Menikah,Mahasiswa,Jawa
+93,Muh. Ihsan Usman,25,Laki - laki,Gadingan Banyubiru Dukun Sleman,F.13 (Benzodiasepin),1 Tahun,Situasional,2 Bulan,5 kali,7-May-24,12-Jun-24,PASCAREHAB,SMA,Voluntary,Islam,O,Menikah,Mahasiswa,Jawa
+94,Tri Sulistya HW,25,Laki - laki,Nalian Widodomartani Ngemplak Sleman,F.16 (Tembakau Sintetis),1 Tahun,Teratur Pakai,3 bulan,4 kali,19-Jun-24,8-Aug-24,Selesai,SMA,Bapas Yogyakarta,Islam,,Belum Menikah,Wiraswasta,Jawa
+95,Sumasdita,20,Laki - laki,Ngadipuro Dukun Magelang,F.13 (Benzodiasepin),< 6 bulan,Coba Pakai,3 bulan,6 kali,19-Jun-24,2-Aug-24,PASCAREHAB,SMA,Voluntary,Islam,,Belum Menikah,Swasta,Jawa
+96,Nurhayati,18,Perempuan,Plesedan Srimulyo Piyungan Bantul D.I Yogyakarta,F.19 (Multipel zat) (Sedativ Hipnotik dan Inhalan),5 tahun,Ketergantungan,> 1 bulan,1 kali,5-Aug-24,8-Aug-24,Hanya Asesmen,SMP,Voluntary,Islam,Tidak tahu,Belum Menikah,Pelajar,Jawa
+97,Anandyo,35,Laki - laki,Candibinangun Pakem Sleman,F.19 (Multipel Zat) (Benzodiasepin) dan (Amfetamin),10 tahun,Ketergantungan,> 1 bulan,1 kali,16-Aug-24,rujuk,Rujuk RS Gramedika 10,SMA,Voluntary,Islam,Tidak tahu,Menikah,Wiraswasta,Jawa
+98,Ihsan,22,Laki-laki,"Candi Singo, Madurejo Prambaranan, Sleman",F.13 (Benzodiasepin),< 1 Tahun,Teratur Pakai,1 bulan,5 kali,23-Aug-24,24-Aug-24,PASCAREHAB,SMA,Voluntary,Islam,A,Belum Menikah,Buruh,Jawa
+99,Tri Sulistya HW,24,Laki-laki,"Minomartani, ngangglik Sleman",F.13 (Benzodiasepin),10 Tahun,Teratur Pakai,1 bulan,4 kali,29-Aug-24,10-Oct-24,Selesai,SMA,Bapas Yogyakarta,Islam,Tidak tahu,Belum Menikah,Belum Bekerja,Jawa
+100,Dyah Aridha W.,16,Laki-laki,"Jatirejo. Sendangadi, Melati, Sleman",F.13 (Sedativ Hipnotik),1 Tahun,Coba Pakai,1 bulan,3 kali,30-Aug-24,13-Sep-24,DO,SMP,Voluntary,Islam,Tidak tahu,Belum Menikah,Pelajar,Jawa
+101,Sumasdita,23,Laki-laki,"Tempel, Baturetno, Kec, Banguntapan, Bantul",D10 Ganja,<6 bulan,Coba Pakai,1 bulan,3 kali,6-Aug-24,10-Oct-24,PASCAREHAB,SMK,TAT,Islam,Tidak tahu,Belum Menikah,Chef,Jawa
+102,Dyah Aridha W.,31,Laki-laki,Sumberadi Mlati Sleman,F.13 (Benzodiasepin),5 Tahun,Teratur Pakai,1 bulan,1 kali,18-Sep-24,24-Sep-24,Rujuk ke RS Grhasia,SMA,Voluntary,Islam,O,Cerai Hidup,Sopir,Jawa
+103,Tri Sulistya HW,29,Laki-laki,Sariharjo Ngaglik Sleman Yogyakarta,F.13 (Benzodiasepin),4 Tahun,Teratur Pakai,2 bulan,5 kali,10-Oct-24,11/29/2024,Selesai,SMA,Voluntary,Katholik,O,Menikah,Parkir,Jawa
+104,Tri Sulistya HW,25,Laki-laki,Banyurejo Tempel Sleman Yogyakarta,F.13 (Benzodiasepin),10 Tahun,Teratur Pakai,3 bulan,6 kali,16-Oct-24,12/5/2024,Pascarehabilitasi,SD,Voluntary,Islam,-,Belum Menikah,Buruh Harian Lepas,Jawa
+105,Dyah Aridha W.,15,Perempuan,Gang Manggis Condongcatur Depok Sleman Yogyakarta,F.13 (Benzodiasepin),< 6 bulan,Coba Pakai,3 bulan,7 kali,21-Oct-24,12/3/2024,Selesai,SD,Voluntary,Islam,O,Belum Menikah,Pelajar,Jawa
+106,Wihartanti,14,Perempuan,Selomartani Kalasan,F.13 (Benzodiasepin),< 6 bulan,Coba Pakai,3 bulan,7 kali,21-Oct-24,12/3/2024,Selesai,SD,Voluntary,Islam,-,Belum Menikah,Pelajar,Jawa
+107,Sumasdita,14,Perempuan,Ngabean Wetan Sinduharjo Ngaglik Sleman,F.13 (Benzodiasepin),< 6 bulan,Coba Pakai,3 bulan,7 kali,21-Oct-24,12/2/2024,Selesai,SD,Voluntary,Islam,-,Belum Menikah,Pelajar,Jawa
+108,Muh Ihsan,18,Laki-laki,Tambakrejo sariharjo ngaglik sleman,F.13 (Benzodiasepin),< 6 bulan,Coba Pakai,3 bulan,5 kali,8-Nov-24,12/6/2024,Pascarehabilitasi,SMP,Voluntary,Katolik,-,Belum Menikah,Pelajar,Jawa
+109,Wihartanti,27,Laki-laki,Selomartani Kalasan Sleman Yogyakarta,F.13 (Benzodiasepin),5 Tahun,Rutin pakai,2 bulan,6 kali,7-Nov-24,12/17/2024,Selesai,SD,Voluntary,Islam,.,-,Buruh,Jawa
+110,Renantapria Pramuditya,17,Laki-laki,Sumbersari Moyudan Sleman,F.13 (Benzodiasepin),< 6 bulan,Coba Pakai,2 bulan,5 kali,18-Nov-24,,on proses,SMP,Voluntary,Katolik,O,Belum Menikah,Pelajar,Jawa
+111,Tri Sulistya HW,15,Laki-laki,Topadon Klawisan Margoagung Sleman,F.13 (Benzodiasepin),4 Tahun,Rutin pakai,,1 kali,,,Hanya Asesmen,SD,Voluntary,Islam,Tidak Tahu,Belum Menikah,Pelajar,Jawa
+112,Muh Ihsan,37,Laki-laki,Minggiran Barat Yogyakarta,F.13 (Benzodiasepin),-,,,1kali,,,Hanya Intake,-,Voluntary,Katolik,O,Menikah,Satpam,Jawa
+113,Renantapria Pramuditya,22,Laki-laki,Patuk Sardonoharjo Ngaglik Sleman,F.13 (Benzodiasepin),4 tahun,Rutin pakai,,1 kali,,,Hanya Asesmen,SMA,Voluntary,Islam,O,Belum Menikah,Karyawan Swasta,Jawa
+114,Muh Ihsan,30,Laki-laki,Purwobinangun Pakem Sleman,F.13 (Benzodiasepin),6 Tahun,Rutin pakai,,1 kali,,,Hanya Asesmen,SMA,Voluntary,Islam,B,Cerai Hidup,Karyawan Honorer,Jawa
+115,Ade Triana,14,Perempuan,Caturtunggal Depok Sleman,F.13 (Benzodiasepin),2 tahun,Rutin pakai,,,,on proses,on proses,SD,Voluntary,Islam,o,Belum Menikah,Pelajar,Jawa
+116,Muh Ihsan Usman,18,Laki-laki,Mulungan Wetan Mlati Sleman,F.13 (Benzodiasepin),< 6 bulan,Coba Pakai,,,11/21/2024,on proses,on proses,SMP,Voluntary,Islam,Tidak Tahu,Belum Menikah,Pelajar,Jawa
+117,dr Anandyo / Renantapria Pramuditya,35,Laki-laki,Margoagung Seyegan Sleman,F.13 (Benzodiasepin),< 2 bulan,Coba Pakai,,,29-Nov-24,on proses,on proses,SMA,Voluntary,Islam,Tidak Tahu,Menikah,Swasta,Jawa
+118,Dyah Aridha W.,18,Laki-laki,Tlogoadi Mlati Sleman Yogyakarta,F.13 (Benzodiasepin),< 2 bulan,Coba Pakai,3 Bulan,6 Kali,29-Nov-24,3-Jan-25,Selesai,SMP,Voluntary,Islam,Tidak Tahu,Belum Menikah,Pelajar,Jawa
+119,Nurhayati,24,Laki-laki,Sinduadi Mlati Sleman Yogyakarta,F.13 (Benzodiasepin) / THP,8 Tahun,Rutin pakai,,,25-Nov-24,on proses,on proses,SMA,Voluntary,Islam,AB,Belum Menikah,Swasta,Jawa
+120,Dyah Aridha W.,14,Laki - laki,Caturharjo Sleman,F.13 (Benzodiasepin) / THP,< 6 bulan,Coba Pakai,,,11/29/2024,on proses,on proses,SD,Voluntary,Islam,Tidak Tahu,Belum Menikah,Pelajar,Jawa
+121,Dyah Aridha W.,17,Perempuan,Kradenan Srumbung Magelang Jawa Tengah,F.13 (Benzodiasepin) / THP,< 6 bulan,Coba Pakai,,,19-Dec-24,on proses,on proses,SMP,Voluntary,islam,O,Belum Menikah,Pelajar,Jawa
+122,Wihartanti,16,Perempuan,Citrogaten Lor Salam Magelang Jawa Tengah,F.13 (Benzodiasepin) / THP,< 6 bulan,Coba Pakai,,,19-Dec-24,on proses,on proses,SMP,Voluntary,Islam,Tidak Tahu,Belum Menikah,Pelajar,Jawa
+123,Nurhayati,17,Perempuan,Pandowoharjo Sleman Sleman,F.13 (Benzodiasepin) / THP,< 6 bulan,Coba Pakai,,,19-Dec-24,on proses,on proses,SMP,Voluntary,Islam,Tidak Tahu,Belum Menikah,Pelajar,Jawa
+124,Nurhayati,23,Perempuan,Klender Duren Sawit Jakarta Timur,F.15.00 (Sabu),,,,,6-Feb-25,,,SMA,Voluntery,Islam,-,Belum menikah,Karyawan swasta,Jawa
+125,Renantapria,31,Laki-laki,Yogyakarta,F.13.00 (Benzodiasepin),,,,,6-Feb-25,,,SMA,Voluntery,Islam,-,Belum menikah,Karyawan swasta,Jawa
+126,Wihartanti,29,Laki-laki,Sinduadi Mlati Sleman,F.13.00 (Benzodiasepin),,,,,6-Feb-25,,,SMA,Voluntery,Islam,-,Belum menikah,Karyawan swasta,Jawa
+127,Dyah Aridha,23,Laki-laki,Muja Muju Umbulharjo Yogyakarta,F.13.00 (Benzodiasepin),,,,,6-Feb-25,,,SMA,Voluntery,Islam,O,Menikah,Karyawan swasta,Jawa
+128,M. Ihsan Usman,38,Laki-laki,Purwokinanti Pakualaman Yogyakarta,F.13.00 (Benzodiasepin),,,,,6-Feb-25,,,SMA,Voluntery,Katolik,O,Menikah,Karyawan swasta,Jawa
+129,Wihartanti,18,Laki-laki,Wirokroman Sidokarto Godean Sleman,F.16.00 (tembakau gorila),,,,,23-Jan-25,,,SMP,Voluntery,Islam,-,Belum Menikah,Pelajar,Jawa
+130,M. Ihsan Usman,14,Laki-laki,Karangmojo Wedomartani Ngemplak Sleman,F.13.00 (Sedatif),,,,,17-Feb-25,,,SD,Voluntery,Islam,B,Belum menikah,Pelajar,Jawa
+131,Renantapria,13,Laki-laki,Gemutri Sukoharjo Ngaglik Sleman,F.13.00 (Sedatif),,,,,17-Feb-25,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+132,Nurhayati,14,Laki-laki,Jln. Krandon Wedomartani Ngemplak Sleman,F.13.00 (Sedatif),,,,,17-Feb-25,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+133,Ade Triana,14,Laki-laki,Rejodani Ngaglik Sleman,F.13.00 (Sedatif),,,,,17-Feb-25,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+134,Dyah Aridha,14,Laki-laki,Sono Wedomartani Ngemplak Sleman,F.13.00 (Sedatif),,,,,17-Feb-25,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+135,Nurhayati,17,Laki-laki,Kotagede Yoggyakarta,F.16.00 (Tembakau Sintetis),,,,,7-Feb-25,,,SMP,Voluntery,Islam,-,Belum menikah,Wiraswasta,Jawa
+136,Dyah Aridha,32,Laki-laki,Jl. Gangsiran Raya Madurejo Prambanan Sleman,F.15.00 (Sabu),,,,,4-Mar-25,,,S1,Voluntery,Islam,-,Belum menikah,Tidak Bekerja,Jawa
+137,Renantapria,32,Laki-laki,Purwobinangun Pakem Sleman,F.13.00 (Benzodiasepin),,,,,18-Mar-25,,,SMA,Voluntery,Katolik,O,Belum menikah,Mekanik,Jawa
+138,M. Ihsan Usman,34,Laki-laki,Sinduadi Mlati Sleman,F.15.00 (Shabu),,,,,22-Apr-25,,,S1,Voluntery,Kristen,,Cerai Hidup,Karyawan swasta,Jawa
+139,Nurhayati,31,Laki-laki,Bokoharjo Prambanan,F.13.00 (Benzodiasepin),,,,,28-Apr-25,,,SMA,Voluntery,Islam,-,Belum menikah,Buruh,Jawa
+140,Dyah Aridha,21,Laki-laki,Tamanmartani Kalasan Sleman,F.16.00 (tembakau gorila),,,,,28-Apr-25,,,SMA,Voluntery,Islam,O,Belum menikah,Belum Bekerja,Jawa
+141,Dyah Aridha,19,Perempuan,Banjarnegara Jawa Tengah,F.13.00 (Sedatif),,,,,14-May-25,,,SMU,Voluntery,Islam,O,Belum menikah,Mahasiswa,Jawa
+142,M. Ihsan Usman,27,Laki-laki,Trimulyo Sleman,F.19.02 (Multiple drugs),,,,,26 Mei 2025,,,SMA,Voluntery,Islam,O,Belum menikah,Karyawan Swasta,Jawa
+143,Ari Sutyasmanto,17,Laki-laki,Donohudan Ngemplak Boyolali Jawa Tengah,F.16.00 (Tembakau Sintetis),,,,,27 Mei 2025,,,SMP,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+144,Ade Triana,17,Laki-laki,Gondokusuman Kotabaru Yogyakarta,F.13.00 (Benzodiasepin),,,,,27 Mei 2025,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+145,Wihartanti,17,Laki-laki,", Gagaksipat, Ngemplak, Boyolali",F.16.00 (Tembakau Sintetis),,,,,27 Mei 2025,,,SD,Voluntery,Islam,,Belum menikah,Pelajar,
+146,Sumasdita,16,Laki-laki,", Pandean, Ngemplak, Boyolali",F.16.00 (Tembakau Sintetis),,,,,27 Mei 2025,,,SD,Voluntery,Islam,,Belum menikah,Pelajar,
+147,Dyah Aridha W.,16,Perempuan,Tambakrejo Tempel Sleman,F.13.00 (Benzodiasepin),,,,,10-Jun-25,,,SMP,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+148,Nurhayati,46,Laki-laki,Minomartani Ngaglik Sleman,F.19.2 (Multidrugs dengan Halusinasi Auditorik dan Visual),,,,,2-Jun-25,10/13/2025,,,Voluntery,Islam,,Menikah,Swasta,Jawa
+149,Renantapria,30,Laki-laki,Banguntapan Bantul Yogyakarta,F.15.00 (Shabu),,,,,16-Jun-25,,,SMK,Voluntery,Islam,AB,Menikah,Swasta,Jawa
+150,Dyah Aridha,16,Laki-laki,Kalisoka Margosari Pengasih Kulonprogo Yogyakarta,F.13.00 (Benzodiasepin),,,,,17-Jun-25,,,SD,,Islam,,Belum menikah,,Jawa
+151,Ade triana,13,Perempuan,Condongcatur Depon Sleman,F.13.00 (Benzodiasepin),,,,,24-Jun-25,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+152,Nurhayati,31,Laki-laki,Tirtomartani Kalasan Sleman,F.19.00 (Multiple drugs),,,,,30-Jun-25,,,SMK,Voluntery,Islam,O,Belum menikah,Buruh Harian Lepas,Jawa
+153,Sumasdita,43,Laki-laki,Tridadi Sleman,F.15.00 (shabu),,,,,30-Jun-25,,,,,,,Menikah,,
+154,Renantapria,13,Laki-laki,Drono Sardonoharjo Ngaglik Sleman,F.13.00 (Benzodiasepin),,,,,24-Jun-25,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+155,M. Ihsan Usman,14,laki-laki,"Sengkan, Condongcatur Depok Sleman",F.13.00 (Benzodiasepin),,,,,24-Jun-25,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+156,Dyah Aridha,21,Laki-laki,Karanggayam Sumberrejo Tempel Sleman,F.13.00 (Benzodiasepin),,,,,17-Jul-25,,,,,,,Belum menikah,,
+157,Muh. Ihsan,24,Laki-laki,Mriyan X Margomulyo Seyegan Sleman,F.13.00 (Benzodiasepin),,,,,4-Aug-25,,,,,,,Belum menikah,,
+158,Nurhayati,17,Laki-laki,Sardonoharjo Ngaglik Sleman,F.13.00 (Benzodiasepin),,,,,15-Aug-25,,,SMP,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+159,Nurhayati,15,Laki-laki,BPRSR,F.13.00 (Benzodiasepin),,,,,21-Aug-25,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+160,Ari Sutyasmanto,35,Laki-laki,Klangkapan Margoluwih Seyegan Sleman,F.13.00 (Benzodiasepin),,,,,26-Aug-25,,,SMA,Voluntery,Islam,O,Cerai Hidup,PPPK,Jawa
+161,Nurhayati,17,Laki-laki,A Caturtunggal Depok Sleman,F.13.00 (Sedatif),,,,,25-Aug-25,,,SMP,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+162,Dyah Aridha,14,Laki-laki,A Caturtunggal Depok Sleman,F.13.00 (Sedatif),,,,,25-Aug-25,,,SD,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+163,Dyah Aridha,25,Laki-laki,Tridadi Sleman Yogyakarta,F.13.00 (Benzodiasepin),,,,,15-Sep-25,,,SMA,Voluntery,Islam,-,Belum menikah,Pelajar,Jawa
+164,Muh. Ihsan,17,Laki-laki,"Tegal Senggotan, Dusun DK V Dongkelan, Bantul",F.16.00 (Tembakau Sintetis),,,,,31-Jul-25,,,SMP,Volontary,Islam,,Belum menikah,Pelajar,Jawa
+165,Ihsan,17,Laki-laki,BPRSR,F.13.00 (Sedatif),,,,,18-Sep-25,,,SMA,Voluntery,Islam,-,Belum menikah,Pelajar,Makassar
+166,Ade,13,Perempuan,Condongcatur Flamboyan Sleman,F.13.00 (Sedatif),,,,,18-Sep-25,,,,,,,Belum menikah,Pelajar,
+167,Dita,27,Laki-laki,Tirtoadi Mlati Sleman Yogyakarta,F.15.00 (Sabu),,,,,29-Sep-25,,,SMA,Voluntery,Islam,-,Cerai Hidup,Karyawan Swasta,Jawa
+168,Lisa,25,Laki-laki,Kos di Jl Palagan dekat pasar rejodani,F.13.00 (Benzodiasepin),,,,,7-Oct-25,,,SMA,Voluntery,Islam,O,Menikah,Pedagang,Jawa
+169,Lisa,20,Laki-laki,Argosari Sedayu Bantul Yogyakarta,F.13.00 (Benzodiasepin),,,,,27-Oct-25,,,SMA,Voluntery,Islam,O,Belum Menikah,Buruh,Jawa
+170,Dyah Aridha,21,Laki-laki,Argosari Sedayu Bantul Yogyakarta,F.13.00 (Benzodiasepin),,,,,27-Oct-25,,,SMA,Voluntery,Islam,O,Belum Menikah,Buruh,Jawa
+171,Ari Sutyasmanto,16,Laki-laki,Sayidan Yogyakarta,F.13.00 (Sedatif),,,,,,,,,,,,Belum Menikah,,
