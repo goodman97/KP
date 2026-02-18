@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 416605c6384d01c90f45ad65594c4b525e11bbe0
 import streamlit as st
 import pandas as pd
 import re
@@ -823,30 +819,47 @@ with tab3:
     st.subheader("📍 Perbandingan Kasus vs Rehabilitasi per Kecamatan")
 
     kasus_per_kec = (
-        dfkasus.groupby('Kecamatan')
+        dfkasus
+        .groupby('Kecamatan')
         .size()
         .reset_index(name='Jumlah_Kasus')
     )
 
     rehab_per_kec = (
-        dfrehab_sleman.groupby('kecamatan_Sleman')
+        dfrehab_sleman
+        .groupby('kecamatan_Sleman')
         .size()
         .reset_index(name='Jumlah_Rehabilitasi')
     )
 
-    kasus_per_kec['Kecamatan'] = kasus_per_kec['Kecamatan'].str.upper()
-    rehab_per_kec['kecamatan_Sleman'] = rehab_per_kec['kecamatan_Sleman'].str.upper()
+    kasus_per_kec['Kecamatan'] = kasus_per_kec['Kecamatan'].str.upper().str.strip()
+    rehab_per_kec['kecamatan_Sleman'] = rehab_per_kec['kecamatan_Sleman'].str.upper().str.strip()
 
     df_compare = kasus_per_kec.merge(
         rehab_per_kec,
         left_on='Kecamatan',
         right_on='kecamatan_Sleman',
         how='outer'
-    ).fillna(0)
+    )
 
-    df_compare = df_compare[['Kecamatan', 'Jumlah_Kasus', 'Jumlah_Rehabilitasi']]
+    df_compare['Kecamatan'] = df_compare['Kecamatan'].fillna(
+        df_compare['kecamatan_Sleman']
+    )
 
-    st.dataframe(df_compare)
+    df_compare[['Jumlah_Kasus', 'Jumlah_Rehabilitasi']] = (
+        df_compare[['Jumlah_Kasus', 'Jumlah_Rehabilitasi']].fillna(0).astype(int)
+    )
+
+    df_compare = (
+        df_compare[['Kecamatan', 'Jumlah_Kasus', 'Jumlah_Rehabilitasi']]
+        .sort_values('Kecamatan')
+        .reset_index(drop=True)
+    )
+
+    st.dataframe(
+        df_compare, 
+        use_container_width=True,
+        hide_index=True)
 
     st.bar_chart(
         df_compare.set_index('Kecamatan')
