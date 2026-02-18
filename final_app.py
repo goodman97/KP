@@ -276,7 +276,7 @@ with tab1:
 
     kmeans = KMeans(n_clusters=2, random_state=42, n_init=10)
     fitur_kecamatan['cluster'] = kmeans.fit_predict(X_scaled)
-    fitur_kecamatan['cluster'] = fitur_kecamatan['cluster'].map({0: 1, 1: 0})
+    fitur_kecamatan['cluster'] = fitur_kecamatan['cluster'].map({0: 0, 1: 1})
 
     # Load peta
     gdf_map = gpd.read_file("34.04_kecamatan.geojson")
