@@ -21,19 +21,24 @@ st.title("📊 Dashboard Analisis Narkoba Sleman")
 # =====================================================
 # SIDEBAR MENU (2 HALAMAN SAJA)
 # =====================================================
-menu = st.sidebar.radio(
-    "Pilih Halaman",
-    ["🚔 Ungkap Kasus", "🏥 Rehabilitasi"]
-)
+#menu = st.sidebar.radio(
+#   "Pilih Halaman",
+#    ["🚔 Ungkap Kasus", "🏥 Rehabilitasi", ]
+#)
 
-# =====================================================
+tab1, tab2, tab3 = st.tabs(["🚔 Ungkap Kasus", "🏥 Rehabilitasi", "Insight dan Kesimpulan"])
+
+with tab1:
+    st.header("Halaman Ungkap Kasus")
+    # =====================================================
 # =====================================================
 # 🚔 HALAMAN 1 : UNGKAP KASUS
 # =====================================================
 # =====================================================
 
-if menu == "🚔 Ungkap Kasus":
+#if menu == "🚔 Ungkap Kasus":
 
+    
     @st.cache_data
     def load_data():
         dfkasus = pd.read_excel("KasusClean.xlsx")
@@ -66,15 +71,21 @@ if menu == "🚔 Ungkap Kasus":
     # =============================
     # SIDEBAR FILTER
     # =============================
-    st.sidebar.header("🔍 Filter Data")
+    #st.sidebar.header("🔍 Filter Data")
 
-    tahun_filter = st.sidebar.multiselect(
-        "Pilih Tahun",
+    #tahun_filter = st.sidebar.multiselect(
+    #    "Pilih Tahun",
+    #    sorted(dfkasus['Tahun'].unique()),
+    #    default=sorted(dfkasus['Tahun'].unique()),
+    #    key="tahun_kasus"
+    #)
+
+    #dfkasus = dfkasus[dfkasus['Tahun'].isin(tahun_filter)]
+    tahun_filter = st.multiselect(
+        "Pilih Tahun Kasus",
         sorted(dfkasus['Tahun'].unique()),
         default=sorted(dfkasus['Tahun'].unique())
     )
-
-    dfkasus = dfkasus[dfkasus['Tahun'].isin(tahun_filter)]
 
     
 
@@ -343,16 +354,18 @@ if menu == "🚔 Ungkap Kasus":
     legend_table
 
     st.pyplot(fig)   
+with tab2:  
+    st.header("Halaman Rehabilitasi")
 
-# =====================================================
-# =====================================================
-# 🏥 HALAMAN 2 : REHABILITASI
-# =====================================================
-# =====================================================
 
-elif menu == "🏥 Rehabilitasi":
 
-    @st.cache_data
+    # =====================================================
+    # =====================================================
+    # 🏥 HALAMAN 2 : REHABILITASI
+    # =====================================================
+    # =====================================================
+
+    #elif menu == "🏥 Rehabilitasi":
     def load_rehab():
         return pd.read_csv("datarehabdone.csv")
 
@@ -453,15 +466,21 @@ elif menu == "🏥 Rehabilitasi":
     # SIDEBAR TAHUH
     #=========================
 
-    st.sidebar.header("🔍 Filter Data")
+    #st.sidebar.header("🔍 Filter Data")
 
-    tahun_filter = st.sidebar.multiselect(
-        "Pilih Tahun",
+    #tahun_filter_rehab = st.sidebar.multiselect(
+    #"Pilih Tahun",
+    #sorted(dfrehab_sleman['tahun'].unique()),
+    #default=sorted(dfrehab_sleman['tahun'].unique()),
+    #key="tahun_rehab"
+    #)
+
+    #dfrehab_sleman = dfrehab_sleman[dfrehab_sleman['tahun'].isin(tahun_filter_rehab)]
+    tahun_filter_rehab = st.multiselect(
+        "Pilih Tahun Rehabilitasi",
         sorted(dfrehab_sleman['tahun'].unique()),
         default=sorted(dfrehab_sleman['tahun'].unique())
     )
-
-    dfrehab_sleman = dfrehab_sleman[dfrehab_sleman['tahun'].isin(tahun_filter)]
     # ========================
     # METRIK
     # ========================
@@ -741,3 +760,137 @@ elif menu == "🏥 Rehabilitasi":
     legend_table
 
     st.pyplot(fig) 
+
+with tab3:
+    st.header("Insight dan Kesimpulan")
+    st.markdown("---")
+    st.subheader("📊 Ringkasan Statistik Utama")
+
+    # ==============================
+    # RINGKASAN UNGKAP KASUS
+    # ==============================
+    total_kasus = len(dfkasus)
+    kecamatan_tertinggi_kasus = (
+        dfkasus['Kecamatan']
+        .value_counts()
+        .idxmax()
+    )
+
+    tahun_tertinggi_kasus = (
+        dfkasus['Tahun']
+        .value_counts()
+        .idxmax()
+    )
+
+    # ==============================
+    # RINGKASAN REHABILITASI
+    # ==============================
+    total_rehab = len(dfrehab_sleman)
+
+    kecamatan_tertinggi_rehab = (
+        dfrehab_sleman['kecamatan_Sleman']
+        .value_counts()
+        .idxmax()
+    )
+
+    usia_dominan = (
+        dfrehab_sleman['kelompok_usia']
+        .value_counts()
+        .idxmax()
+    )
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.metric("Total Kasus", total_kasus)
+        st.write("Kecamatan Kasus Tertinggi:", kecamatan_tertinggi_kasus)
+        st.write("Tahun Kasus Tertinggi:", tahun_tertinggi_kasus)
+
+    with col2:
+        st.metric("Total Rehabilitasi", total_rehab)
+        st.write("Kecamatan Rehab Tertinggi:", kecamatan_tertinggi_rehab)
+        st.write("Kelompok Usia Dominan:", usia_dominan)
+
+    st.markdown("---")
+
+    # ===================================
+    # VISUALISASI PERBANDINGAN PER KECAMATAN
+    # ===================================
+    st.subheader("📍 Perbandingan Kasus vs Rehabilitasi per Kecamatan")
+
+    kasus_per_kec = (
+        dfkasus.groupby('Kecamatan')
+        .size()
+        .reset_index(name='Jumlah_Kasus')
+    )
+
+    rehab_per_kec = (
+        dfrehab_sleman.groupby('kecamatan_Sleman')
+        .size()
+        .reset_index(name='Jumlah_Rehabilitasi')
+    )
+
+    kasus_per_kec['Kecamatan'] = kasus_per_kec['Kecamatan'].str.upper()
+    rehab_per_kec['kecamatan_Sleman'] = rehab_per_kec['kecamatan_Sleman'].str.upper()
+
+    df_compare = kasus_per_kec.merge(
+        rehab_per_kec,
+        left_on='Kecamatan',
+        right_on='kecamatan_Sleman',
+        how='outer'
+    ).fillna(0)
+
+    df_compare = df_compare[['Kecamatan', 'Jumlah_Kasus', 'Jumlah_Rehabilitasi']]
+
+    st.dataframe(df_compare)
+
+    st.bar_chart(
+        df_compare.set_index('Kecamatan')
+    )
+
+    st.markdown("---")
+
+    # ===================================
+    # ANALISIS CLUSTER UNGKAP
+    # ===================================
+    st.subheader("🧠 Insight Clustering Ungkap Kasus")
+
+    cluster_summary = fitur_kecamatan.groupby('cluster')['Kecamatan'].count()
+
+    st.write("Distribusi Cluster:")
+    st.dataframe(cluster_summary)
+
+    st.markdown("""
+    Cluster dengan nilai lebih tinggi menunjukkan kecamatan dengan kombinasi:
+    - Jumlah kasus tinggi
+    - Total barang bukti besar
+    """)
+
+    st.markdown("---")
+
+    # ===================================
+    # ANALISIS CLUSTER REHAB
+    # ===================================
+    st.subheader("🧠 Insight Clustering Rehabilitasi")
+
+    cluster_rehab_summary = fitur_kecamatan_rehab.groupby('cluster')['kecamatan_Sleman'].count()
+
+    st.write("Distribusi Cluster Rehabilitasi:")
+    st.dataframe(cluster_rehab_summary)
+
+    st.markdown("---")
+
+    # ===================================
+    # KESIMPULAN OTOMATIS
+    # ===================================
+    st.subheader("📌 Kesimpulan Otomatis Berbasis Data")
+
+    st.markdown(f"""
+    1. Kecamatan dengan kasus tertinggi adalah **{kecamatan_tertinggi_kasus}**.
+    2. Kecamatan dengan rehabilitasi tertinggi adalah **{kecamatan_tertinggi_rehab}**.
+    3. Kelompok usia paling rentan adalah **{usia_dominan}**.
+    4. Terdapat perbedaan distribusi antara penegakan hukum dan kebutuhan rehabilitasi.
+    5. Clustering menunjukkan adanya segmentasi wilayah risiko yang dapat dijadikan dasar kebijakan.
+    """)
+
+    st.success("Dashboard ini dapat digunakan sebagai sistem pendukung keputusan berbasis data.")
