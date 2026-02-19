@@ -277,6 +277,7 @@ with tab1:
     kmeans = KMeans(n_clusters=2, random_state=42, n_init=10)
     fitur_kecamatan['cluster'] = kmeans.fit_predict(X_scaled)
     fitur_kecamatan['cluster'] = fitur_kecamatan['cluster'].map({0: 0, 1: 1})
+    st.dataframe(fitur_kecamatan, hide_index=True)
 
     # Load peta
     gdf_map = gpd.read_file("34.04_kecamatan.geojson")
@@ -349,15 +350,14 @@ with tab1:
             'label': 'Kode',
             'nm_kecamatan': 'Nama Kecamatan'
         },
-        inplace=True
+        inplace=True,
     )
-    legend_table
+    st.dataframe(legend_table, hide_index=True)
 
     st.pyplot(fig)   
+
 with tab2:  
     st.header("Halaman Rehabilitasi")
-
-
 
     # =====================================================
     # =====================================================
@@ -909,5 +909,18 @@ with tab3:
     4. Terdapat perbedaan distribusi antara penegakan hukum dan kebutuhan rehabilitasi.
     5. Clustering menunjukkan adanya segmentasi wilayah risiko yang dapat dijadikan dasar kebijakan.
     """)
+
+    st.markdown("Dengan insight di atas dapat disimpulkan bahwa banyak kasus pelaku penyalahgunaan atau pengedar narkoba yang banyak tersebar " \
+    "di kecamatan Depok, Sleman, dan Ngaglik sehingga pemberantasan narkoba dapat difokuskan ke 3 kecamatan tersebut. Lalu terdapat 4 kecamatan " \
+    "yang tidak memiliki catatan kasus sehingga dapat dikatakan aman, walaupun begitu tidak menutup kemungkinan bahwa di daerah tersebut tidak terjadi" \
+    "tindakan penyalahgunaan dan peredaran narkoba")
+
+    st.markdown("Untuk rehabilitasi tercatat ada banyak pengguna narkoba yang berasal daerah Sleman dan pengguna paling banyak berkisar pada umur di bawah " \
+    "20 tahun, sehingga untuk langkah penyuluhan mengenai narkoba dapat difokuskan pada daerah Sleman dan kepada kelompok pemuda atau pelajar. " \
+    "Lalu ada 3 wilayah yang dapat dikatakan aman karena tidak ada data pengguna yang melakukakn rehabilitasi dari daerah tersebut, namun juga tidak " \
+    "menutup kemungkinan bahwa di daerah-daerah tersebut tidak ada korban penyalahgunaan narkoba")
+
+    st.markdown("Dari adanya perbedaan distrbusi antara kasus dan rehabilitasi langkah yang bisa diambil yaitu memfokuskan tim pemebrantasan " \
+    "dan tim penyuluhan atau rehabilitasi sesuai dengan tingkat kerawanan dari masing-masing masalah agar menjadi lebih efisien.")
 
     st.success("Dashboard ini dapat digunakan sebagai sistem pendukung keputusan berbasis data.")
