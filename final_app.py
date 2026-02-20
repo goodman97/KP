@@ -906,8 +906,7 @@ with tab3:
     1. Kecamatan dengan kasus tertinggi adalah **{kecamatan_tertinggi_kasus}**.
     2. Kecamatan dengan rehabilitasi tertinggi adalah **{kecamatan_tertinggi_rehab}**.
     3. Kelompok usia paling rentan adalah **{usia_dominan}**.
-    4. Terdapat perbedaan distribusi antara penegakan hukum dan kebutuhan rehabilitasi.
-    5. Clustering menunjukkan adanya segmentasi wilayah risiko yang dapat dijadikan dasar kebijakan.
+    4. Clustering menunjukkan adanya segmentasi wilayah risiko yang dapat dijadikan dasar kebijakan.
     """)
 
     st.markdown("Dengan insight di atas dapat disimpulkan bahwa banyak kasus pelaku penyalahgunaan atau pengedar narkoba yang banyak tersebar " \
@@ -919,8 +918,5 @@ with tab3:
     "20 tahun, sehingga untuk langkah penyuluhan mengenai narkoba dapat difokuskan pada daerah Sleman dan kepada kelompok pemuda atau pelajar. " \
     "Lalu ada 3 wilayah yang dapat dikatakan aman karena tidak ada data pengguna yang melakukakn rehabilitasi dari daerah tersebut, namun juga tidak " \
     "menutup kemungkinan bahwa di daerah-daerah tersebut tidak ada korban penyalahgunaan narkoba")
-
-    st.markdown("Dari adanya perbedaan distrbusi antara kasus dan rehabilitasi langkah yang bisa diambil yaitu memfokuskan tim pemebrantasan " \
-    "dan tim penyuluhan atau rehabilitasi sesuai dengan tingkat kerawanan dari masing-masing masalah agar menjadi lebih efisien.")
 
     st.success("Dashboard ini dapat digunakan sebagai sistem pendukung keputusan berbasis data.")
