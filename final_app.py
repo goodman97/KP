@@ -52,6 +52,7 @@ with tab1:
     dfkasus = dfkasus.drop(columns=['No', 'Jumlah Tersangka'])
     dfkasus['Pekerjaan'] = dfkasus['Pekerjaan'].str.strip()
     dfkasus['Kecamatan'] = dfkasus['Kecamatan'].str.strip()
+    dfkasus['Instansi Pengungkap'] = dfkasus['Instansi Pengungkap'].str.strip()
     dfkasus['Besaran/Jumlah BB'] = dfkasus['Besaran/Jumlah BB'].astype(str)
 
     # Extract BB gram
@@ -69,23 +70,45 @@ with tab1:
     )
 
     # =============================
-    # SIDEBAR FILTER
+    # FILTER DATA UNGKAP KASUS
     # =============================
-    #st.sidebar.header("🔍 Filter Data")
 
-    #tahun_filter = st.sidebar.multiselect(
-    #    "Pilih Tahun",
-    #    sorted(dfkasus['Tahun'].unique()),
-    #    default=sorted(dfkasus['Tahun'].unique()),
-    #    key="tahun_kasus"
-    #)
+    col_filter1, col_filter2 = st.columns(2)
 
-    #dfkasus = dfkasus[dfkasus['Tahun'].isin(tahun_filter)]
-    tahun_filter = st.multiselect(
-        "Pilih Tahun Kasus",
-        sorted(dfkasus['Tahun'].unique()),
-        default=sorted(dfkasus['Tahun'].unique())
+    tahun_options = sorted(dfkasus['Tahun'].unique())
+
+    instansi_options = sorted(
+        dfkasus['Instansi Pengungkap'].unique()
     )
+
+    with col_filter1:
+        tahun_filter = st.multiselect(
+            "Pilih Tahun Kasus",
+            tahun_options,
+            default=tahun_options,
+            key="tahun_kasus"
+        )
+
+    with col_filter2:
+        instansi_filter = st.multiselect(
+            "Pilih Instansi Pengungkap",
+            instansi_options,
+            default=["BNNP DIY"],
+            key="instansi_kasus"
+        )
+
+    # Jika filter dikosongkan, tampilkan semua data
+    if not tahun_filter:
+        tahun_filter = tahun_options
+
+    if not instansi_filter:
+        instansi_filter = instansi_options
+
+    # Terapkan filter
+    dfkasus = dfkasus[
+        (dfkasus['Tahun'].isin(tahun_filter)) &
+        (dfkasus['Instansi Pengungkap'].isin(instansi_filter))
+    ].copy()
 
     
 
@@ -94,14 +117,14 @@ with tab1:
     # =============================
     col1, col2, col3 = st.columns(3)
 
-    col1.metric("Total Kasus", len(dfkasus))
+    col1.metric("Total Tersangka", len(dfkasus))
     col2.metric("Total BB (Gram)", f"{dfkasus['BB_gram'].sum():.2f}")
     col3.metric("Total BB (Butir)", int(dfkasus['BB_butir'].sum()))    
 
     # =============================
     # 1. JUMLAH KASUS PER KECAMATAN
     # =============================
-    st.subheader("📍 Jumlah Kasus per Kecamatan")
+    st.subheader("📍 Jumlah Tersangka per Kecamatan")
 
     kasus_kecamatan = dfkasus.groupby('Kecamatan').size().sort_values(ascending=False)
 
@@ -110,7 +133,7 @@ with tab1:
     # ============================0
     # 2. JUMLAH KASUS PER TAHUN
     # =============================
-    st.subheader("📆 Jumlah Kasus per Tahun")
+    st.subheader("📆 Jumlah Tersangka per Tahun")
 
     dfkasus['Tahun'] = (
         dfkasus['Tahun']
@@ -134,7 +157,7 @@ with tab1:
     # =============================
     # 3. JUMLAH KASUS PER TAHUN DI TIAP KECAMATAN
     # =============================
-    st.subheader("🏘️ Jumlah Kasus per Tahun di Tiap Kecamatan")
+    st.subheader("🏘️ Jumlah Tersangka per Tahun di Tiap Kecamatan")
 
     kasus_tahun_kecamatan = (
         dfkasus.groupby(['Tahun', 'Kecamatan'])
@@ -156,7 +179,7 @@ with tab1:
     # =============================
     dfkasus["Pekerjaan"] = dfkasus["Pekerjaan"].str.strip()
 
-    st.subheader("👷 Jumlah Kasus per Pekerjaan")
+    st.subheader("👷 Jumlah Tersangka per Pekerjaan")
 
     kasus_pekerjaan = (
         dfkasus.groupby('Pekerjaan')
@@ -802,9 +825,9 @@ with tab3:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.metric("Total Kasus", total_kasus)
-        st.write("Kecamatan Kasus Tertinggi:", kecamatan_tertinggi_kasus)
-        st.write("Tahun Kasus Tertinggi:", tahun_tertinggi_kasus)
+        st.metric("Total Tersangka", total_kasus)
+        st.write("Kecamatan Tersangka Tertinggi:", kecamatan_tertinggi_kasus)
+        st.write("Tahun Tersangka Tertinggi:", tahun_tertinggi_kasus)
 
     with col2:
         st.metric("Total Rehabilitasi", total_rehab)
@@ -816,7 +839,7 @@ with tab3:
     # ===================================
     # VISUALISASI PERBANDINGAN PER KECAMATAN
     # ===================================
-    st.subheader("📍 Perbandingan Kasus vs Rehabilitasi per Kecamatan")
+    st.subheader("📍 Perbandingan Tersangka Kasus vs Rehabilitasi per Kecamatan")
 
     kasus_per_kec = (
         dfkasus
@@ -878,10 +901,14 @@ with tab3:
     st.dataframe(cluster_summary)
 
     st.markdown("""
-    Cluster dengan nilai lebih tinggi menunjukkan kecamatan dengan kombinasi:
-    - Jumlah kasus tinggi
-    - Total barang bukti besar
-    """)
+        K-Means membentuk dua kelompok kecamatan berdasarkan kombinasi:
+        - Jumlah tersangka
+        - Total barang bukti dalam gram
+        - Total barang bukti dalam butir
+
+        Interpretasi tingkat kerawanan dilakukan berdasarkan karakteristik
+        data pada masing-masing cluster, bukan berdasarkan nomor label cluster.
+        """)
 
     st.markdown("---")
 
@@ -909,10 +936,27 @@ with tab3:
     4. Clustering menunjukkan adanya segmentasi wilayah risiko yang dapat dijadikan dasar kebijakan.
     """)
 
-    st.markdown("Dengan insight di atas dapat disimpulkan bahwa banyak kasus pelaku penyalahgunaan atau pengedar narkoba yang banyak tersebar " \
-    "di kecamatan Depok, Sleman, dan Ngaglik sehingga pemberantasan narkoba dapat difokuskan ke 3 kecamatan tersebut. Lalu terdapat 4 kecamatan " \
-    "yang tidak memiliki catatan kasus sehingga dapat dikatakan aman, walaupun begitu tidak menutup kemungkinan bahwa di daerah tersebut tidak terjadi" \
-    "tindakan penyalahgunaan dan peredaran narkoba")
+    top3_kecamatan_kasus = (
+        dfkasus['Kecamatan']
+        .value_counts()
+        .head(3)
+        .index
+        .tolist()
+    )
+
+    if top3_kecamatan_kasus:
+        daftar_top3 = ", ".join(top3_kecamatan_kasus)
+
+        st.markdown(
+            f"Berdasarkan data yang sedang dipilih, jumlah tersangka "
+            f"tertinggi terdapat pada Kecamatan **{daftar_top3}**. "
+            "Wilayah tersebut dapat menjadi perhatian dalam evaluasi "
+            "kegiatan pemberantasan narkoba. Namun, wilayah yang tidak "
+            "memiliki catatan dalam dataset tidak dapat langsung "
+            "disimpulkan sebagai wilayah aman karena tidak adanya data "
+            "belum membuktikan bahwa penyalahgunaan atau peredaran "
+            "narkoba tidak terjadi."
+        )
 
     st.markdown("Untuk rehabilitasi tercatat ada banyak pengguna narkoba yang berasal daerah Sleman dan pengguna paling banyak berkisar pada umur di bawah " \
     "20 tahun, sehingga untuk langkah penyuluhan mengenai narkoba dapat difokuskan pada daerah Sleman dan kepada kelompok pemuda atau pelajar. " \
